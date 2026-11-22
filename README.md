@@ -35,7 +35,7 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v2.3.0](https://github.com/MorpheApp/morphe-patches/releases/tag/v2.3.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;212 patches total
+> **[v1.0.0](https://github.com/aurelioreboul58-code/youtube-productivity/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;213 patches total
 <details>
 <summary>📦 YouTube Music&nbsp;&nbsp;•&nbsp;&nbsp;57 patches</summary>
 <br>
@@ -108,7 +108,7 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 </details>
 
 <details>
-<summary>📦 YouTube&nbsp;&nbsp;•&nbsp;&nbsp;118 patches</summary>
+<summary>📦 YouTube&nbsp;&nbsp;•&nbsp;&nbsp;119 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -198,6 +198,7 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 | [Open system share sheet](#open-system-share-sheet) | Adds an option to always open the system share sheet instead of the in-app share sheet. |  |
 | [Open videos fullscreen](#open-videos-fullscreen) | Adds options to automatically open videos in fullscreen portrait or landscape mode. |  |
 | [Override YouTube Music buttons](#override-youtube-music-buttons) | Overrides YouTube Music buttons to open Morphe Music or any compatible third-party client. |  |
+| [Permanent YouTube productivity guard](#permanent-youtube-productivity-guard) | Permanently blocks weekday playback, live streams and excess weekend viewing time. |  |
 | [Picture-in-picture button](#picture-in-picture-button) | Adds an option to display a picture-in-picture button in the video player. |  |
 | [Play all](#play-all) | Adds an option to play all the videos from a channel and to display play all button in the video player. |  |
 | [Playback buffer](#playback-buffer) | Adds an option to change the video playback buffer size. |  |
