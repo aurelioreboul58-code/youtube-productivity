@@ -1,3 +1,5 @@
+YouTube Productivity patch bundle v1.0.1.
+
 ## 1.0.0 (2026-11-22)
 
 ### ⚠ BREAKING CHANGES
