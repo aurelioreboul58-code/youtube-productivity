@@ -15,6 +15,15 @@ Second \"item\" text"</string>
 
 -->
 <resources>
+    <!-- video.productivity.youtubeProductivityPatch -->
+    <string name="morphe_youtube_productivity_guard_title">Activate permanent productivity guard</string>
+    <string name="morphe_youtube_productivity_guard_summary">Irreversibly applies these rules: no video on weekdays, no live streams, and a 30-minute weekend viewing allowance. Only uninstalling YouTube clears this choice.</string>
+    <string name="morphe_youtube_productivity_weekday_blocked">Video playback is available on weekends only</string>
+    <string name="morphe_youtube_productivity_live_blocked">Live streams are disabled</string>
+    <string name="morphe_youtube_productivity_daily_limit_reached">Today’s viewing time is reserved for the current video</string>
+    <string name="morphe_youtube_productivity_exclusive_long_video">After ten minutes, this long video is the only video available today</string>
+    <string name="morphe_youtube_productivity_long_video_decision_closed">Choose a long video before watching more than five minutes</string>
+
     <!-- misc.settings.settingsPatch -->
 
     <!-- In languages where "About" is ambiguous, translate this as "About Morphe" (i.e., About this app). -->

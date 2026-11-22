@@ -104,6 +104,7 @@ import app.morphe.extension.youtube.patches.theme.ThemePatch.RiveSplashScreenDur
 import app.morphe.extension.youtube.patches.voiceovertranslation.VoiceOverTranslationPatch;
 import app.morphe.extension.youtube.patches.voiceovertranslation.VoiceOverTranslationPatch.MyMemoryServiceAvailability;
 import app.morphe.extension.youtube.patches.voiceovertranslation.VoiceOverTranslationPatch.OpenRouterServiceAvailability;
+import app.morphe.extension.youtube.productivity.YouTubeProductivityPatch.ProductivityGuardAvailability;
 import app.morphe.extension.youtube.sponsorblock.SponsorBlockSettings;
 import app.morphe.extension.youtube.sponsorblock.YouTubeSponsorBlockConfig;
 import app.morphe.extension.youtube.swipecontrols.SwipeControlsConfigurationProvider.AnySwipeZoneAvailability;
@@ -120,6 +121,9 @@ import app.morphe.extension.youtube.videoplayer.PlayerIcons;
 @SuppressWarnings("unused")
 public class Settings extends SharedYouTubeSettings {
     // Video
+    /** Once enabled through its dedicated preference, this guard cannot be disabled without reinstalling. */
+    public static final BooleanSetting YOUTUBE_PRODUCTIVITY_LOCKED = new BooleanSetting("morphe_youtube_productivity_locked", FALSE, false, false);
+    public static final BooleanSetting YOUTUBE_PRODUCTIVITY_GUARD = new BooleanSetting("morphe_youtube_productivity_guard", FALSE, false, new ProductivityGuardAvailability());
     public static final EnumSetting<PlaybackBufferSize> PLAYBACK_BUFFER_SIZE = new EnumSetting<>("morphe_playback_buffer_size", PlaybackBufferSize.DEFAULT, true);
     public static final IntegerSetting VIDEO_DELAY = new IntegerSetting("morphe_video_delay", 0);
     public static final BooleanSetting VIDEO_DELAY_BLUETOOTH_ONLY = new BooleanSetting("morphe_video_delay_bluetooth_only", TRUE);

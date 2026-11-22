@@ -1,15 +1,17 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
-group = "app.morphe"
+group = "dev.youtubeproductivity"
 
 patches {
     about {
-        name = "Morphe Patches"
-        description = "Patches for Morphe"
-        source = "git@github.com:MorpheApp/morphe-patches.git"
-        author = "MorpheApp"
-        contact = "na"
-        website = "https://morphe.software"
+        name = "YouTube Productivity"
+        description = "Official Morphe patches plus a permanent YouTube productivity guard"
+        source = providers.gradleProperty("patches.source").orNull
+            ?: System.getenv("GITHUB_REPOSITORY")?.let { "https://github.com/$it" }
+            ?: "local:youtube-productivity"
+        author = providers.gradleProperty("patches.author").orNull ?: "Contributors"
+        contact = providers.gradleProperty("patches.contact").orNull ?: ""
+        website = providers.gradleProperty("patches.website").orNull ?: ""
         license = "GNU General Public License v3.0, with additional GPL section 7 requirements"
     }
 }

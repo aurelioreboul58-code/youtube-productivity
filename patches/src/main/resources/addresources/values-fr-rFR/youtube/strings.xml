@@ -16,6 +16,15 @@ Second \"item\" text"</string>
 
 -->
 <resources>
+  <!-- video.productivity.youtubeProductivityPatch -->
+  <string name="morphe_youtube_productivity_guard_title">Activer le garde-fou de productivité permanent</string>
+  <string name="morphe_youtube_productivity_guard_summary">Applique définitivement ces règles : aucune vidéo en semaine, aucun direct et 30 minutes de visionnage le week-end. Seule la désinstallation de YouTube annule ce choix.</string>
+  <string name="morphe_youtube_productivity_weekday_blocked">La lecture des vidéos est disponible uniquement le week-end</string>
+  <string name="morphe_youtube_productivity_live_blocked">Les directs sont désactivés</string>
+  <string name="morphe_youtube_productivity_daily_limit_reached">Le temps de visionnage d’aujourd’hui est réservé à la vidéo en cours</string>
+  <string name="morphe_youtube_productivity_exclusive_long_video">Après dix minutes, cette longue vidéo est la seule disponible aujourd’hui</string>
+  <string name="morphe_youtube_productivity_long_video_decision_closed">Choisis une longue vidéo avant d’avoir regardé plus de cinq minutes</string>
+
   <!-- misc.settings.settingsPatch -->
   <!-- In languages where "About" is ambiguous, translate this as "About Morphe" (i.e., About this app). -->
   <string name="morphe_settings_screen_00_about_title">À propos</string>
